@@ -1,0 +1,45 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="WikiTests.cs">
+    <Files>
+      <File FileName="DepthFirstTraverser.cs" Line="17" Column="3" />
+      <File FileName="PropertySearchResponder.cs" Line="23" Column="33" />
+      <File FileName="Request.cs" Line="14" Column="3" />
+      <File FileName="RequestContext.cs" Line="12" Column="3" />
+      <File FileName="RequestResponseTests.cs" Line="1" Column="1" />
+      <File FileName="ResponderBuilder.cs" Line="9" Column="45" />
+      <File FileName="Response.cs" Line="13" Column="3" />
+      <File FileName="ResultResponder.cs" Line="32" Column="4" />
+      <File FileName="SearchReplaceResponder.cs" Line="1" Column="1" />
+      <File FileName="SearchResponder.cs" Line="16" Column="18" />
+      <File FileName="TraverseTests.cs" Line="45" Column="31" />
+      <File FileName="WhereUsedResponder.cs" Line="1" Column="1" />
+      <File FileName="WikiApp.cs" Line="18" Column="33" />
+      <File FileName="WikiPage.cs" Line="46" Column="24" />
+      <File FileName="WikiPageResponder.cs" Line="11" Column="23" />
+      <File FileName="WikiTests.cs" Line="14" Column="37" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="WikiSearch" expanded="True">
+            <Node name="WikiTests.cs" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

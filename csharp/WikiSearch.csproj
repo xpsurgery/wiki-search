@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D35142C8-7ACD-487A-9554-4D413D66FA0F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>WikiSearch</RootNamespace>
+    <AssemblyName>WikiSearch</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="WikiTests.cs" />
+    <Compile Include="WikiPage.cs" />
+    <Compile Include="TraverseTests.cs" />
+    <Compile Include="DepthFirstTraverser.cs" />
+    <Compile Include="RequestResponseTests.cs" />
+    <Compile Include="WikiApp.cs" />
+    <Compile Include="Response.cs" />
+    <Compile Include="Request.cs" />
+    <Compile Include="ResponderBuilder.cs" />
+    <Compile Include="WikiPageResponder.cs" />
+    <Compile Include="ResultResponder.cs" />
+    <Compile Include="RequestContext.cs" />
+    <Compile Include="SearchResponder.cs" />
+    <Compile Include="SearchReplaceResponder.cs" />
+    <Compile Include="WhereUsedResponder.cs" />
+    <Compile Include="PropertySearchResponder.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+</Project>
